@@ -1,3 +1,48 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid #707070;
+}
+
+.header-top {
+  padding: 10px 38px;
+}
+
+.header-bottom {
+  border-top: 1px solid #707070;
+  padding: 21px 38px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  font-family: LucidaGrande;
+  font-size: 24px;
+  color: #333333;
+  text-align: left;
+  line-height: 36px;
+
+  text-decoration: none;
+}
+
+.nav a.active {
+  color: red;
+}
+
+.nav a:hover,
+.nav a.hovered {
+  text-decoration: underline;
+}
+
 nav ul li a.active {
     text-decoration: underline;
 }
