@@ -1,8 +1,56 @@
-/* Тут пиши основные стили */
+nav ul li a.active {
+    text-decoration: underline;
+}
 
+article {
+    width: 700px;
+    margin: auto;
+    color:rgba(0,0,0,0.84);
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+p {
+    font-size: 21px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 33px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    h1 {
+        font-size: 26px;
+        margin: 20px 0px;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 6px 0px;
+        line-height: 39px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 6px 0px;
+        line-height: 22px;
+    }
+
+    section,
+    section img {
+        margin: 25px 20px;
+    }
 }
